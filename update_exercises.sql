@@ -9,7 +9,7 @@ SELECT 'All Albums in Albums Table' AS 'Info';
 SELECT 'All Albums produced before 1980' AS 'Info';
     SELECT * FROM albums WHERE release_date <= 1979;
         UPDATE albums SET release_date = 1901 WHERE release_date <= 1979;
-            SELECT 'Updated Albums released before 1980 to 1800' AS 'Info';
+            SELECT 'Updated Albums released before 1980 to 1901' AS 'Info';
 
 SELECT 'albums by Michael Jackson' AS 'Info';
     SELECT * FROM albums WHERE artist = 'Michael Jackson';
