@@ -3,7 +3,7 @@ USE codeup_test_db;
 TRUNCATE albums;
 
 INSERT INTO albums (artist,name,release_date,sales,genre)
-    VALUES  ('Shania Twain', 'Come On Over', 1997 , 29.6  , 'Country, pop '),   
+    VALUES  ('Shania Twain', 'Come On Over', 1997 , 29.6  , 'Country, pop'),   
             ('Led Zeppelin',  'Led Zeppelin IV', 1971 , 29.0 , 'Hard rock, heavy metal'),  
             ('Michael Jackson', 'Bad', 1987, 20.3, 'Pop, funk, rock'),  
             ('Alanis Morissette', 'Jagged Little Pill', 1995, 24.8, 'Alternative rock'),    
