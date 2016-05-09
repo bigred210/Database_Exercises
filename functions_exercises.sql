@@ -1,13 +1,10 @@
 
-SELECT emp_no, first_name, last_name
+SELECT COUNT(*), gender
 FROM employees
-WHERE   gender = 'M'
-        AND(
-        first_name ='Irena'
+WHERE   first_name ='Irena'
         OR first_name ='Vidya'
-        OR first_name ='Maya'   
-        )
-        ORDER BY last_name ASC, first_name ASC; 
+        OR first_name ='Maya'  
+        GROUP BY gender; 
 
 SELECT emp_no, first_name,last_name
 FROM employees
