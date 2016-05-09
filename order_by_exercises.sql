@@ -7,6 +7,7 @@ WHERE   gender = 'M'
         OR first_name ='Vidya'
         OR first_name ='Maya'
         )
+        ORDER BY first_name;
 
 SELECT emp_no, first_name,last_name
 FROM employees
@@ -28,9 +29,9 @@ WHERE last_name LIKE '%q%'
 
 Exercises
 
-Open where_exercises.sql in Sequel Pro and rename it order_by_exercises.sql. Save your changes after each step and add & commit your changes with git. At the end, push all your changes to GitHub.
+-- Open where_exercises.sql in Sequel Pro and rename it order_by_exercises.sql. Save your changes after each step and add & commit your changes with git. At the end, push all your changes to GitHub.
 
-Modify your first query to order by first name. The first result should be Irena Majewski and the last result should be Vidya Schaft.
+-- Modify your first query to order by first name. The first result should be Irena Majewski and the last result should be Vidya Schaft.
 
 Update the query to order by first name and then last name. The first result should now be Irena Acton and the last should be Vidya Zweizig.
 
