@@ -1,13 +1,14 @@
 
+
 SELECT emp_no, first_name, last_name
 FROM employees
 WHERE   gender = 'M'
         AND(
         first_name ='Irena'
         OR first_name ='Vidya'
-        OR first_name ='Maya'
+        OR first_name ='Maya'   
         )
-        ORDER BY first_name;
+        ORDER BY first_name ASC, last_name ASC;
 
 SELECT emp_no, first_name,last_name
 FROM employees
@@ -33,7 +34,7 @@ Exercises
 
 -- Modify your first query to order by first name. The first result should be Irena Majewski and the last result should be Vidya Schaft.
 
-Update the query to order by first name and then last name. The first result should now be Irena Acton and the last should be Vidya Zweizig.
+-- Update the query to order by first name and then last name. The first result should now be Irena Acton and the last should be Vidya Zweizig.
 
 Change the order by clause so that you order by last name before first name. Your first result should still be Irena Acton but now the last result should be Maya Zyda.
 
