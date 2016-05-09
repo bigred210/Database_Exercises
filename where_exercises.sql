@@ -1,9 +1,12 @@
 
 SELECT emp_no, first_name, last_name
 FROM employees
-WHERE first_name ='Irena'
-    OR first_name ='Vidya'
-        OR first_name ='Maya';
+WHERE   gender = 'M'
+        AND(
+        first_name ='Irena'
+        OR first_name ='Vidya'
+        OR first_name ='Maya'
+        )
 
 SELECT emp_no, first_name,last_name
 FROM employees
@@ -29,9 +32,9 @@ Exercises
 
 -- Open your where_exercises.sql file in Sequel Pro, and update the queries in that file. Between each step save your changes and commit to git.
 
-Update your query for 'Irena', 'Vidya', or 'Maya' to use OR instead of IN — 709 rows.
+-- Update your query for 'Irena', 'Vidya', or 'Maya' to use OR instead of IN — 709 rows.
 
-Now add a condition to find everybody with those names who is also male — 441 rows.
+-- Now add a condition to find everybody with those names who is also male — 441 rows.
 
 Find all employees whose last name starts or ends with 'E' — 30,723 rows.
 
