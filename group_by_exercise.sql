@@ -1,1 +1,4 @@
-group_by_exercise.sql
+
+SELECT DISTINCT title
+FROM titles;
+
