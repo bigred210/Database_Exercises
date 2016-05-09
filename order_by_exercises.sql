@@ -13,6 +13,7 @@ SELECT emp_no, first_name,last_name
 FROM employees
 WHERE last_name LIKE 'E%'
     AND last_name Like '%e'
+    ORDER BY emp_no;
 
 SELECT first_name, last_name
 FROM employees
@@ -35,9 +36,9 @@ Exercises
 
 -- Update the query to order by first name and then last name. The first result should now be Irena Acton and the last should be Vidya Zweizig.
 
-Change the order by clause so that you order by last name before first name. Your first result should still be Irena Acton but now the last result should be Maya Zyda.
+-- Change the order by clause so that you order by last name before first name. Your first result should still be Irena Acton but now the last result should be Maya Zyda.
 
-Update your queries for employees with 'E' in their last name to sort the results by their employee number. Your results should not change!
+-- Update your queries for employees with 'E' in their last name to sort the results by their employee number. Your results should not change!
 
 Now reverse the sort order for both queries.
 
