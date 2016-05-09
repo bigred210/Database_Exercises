@@ -6,11 +6,11 @@ WHERE   first_name ='Irena'
         OR first_name ='Maya'  
         GROUP BY gender; 
 
-SELECT emp_no, first_name,last_name
+SELECT CONCAT(first_name , ' ' , last_name)
 FROM employees
 WHERE last_name LIKE 'E%'
     AND last_name LIKE '%e'
-    ORDER BY emp_no, last_name DESC;
+    ORDER BY last_name DESC;
     
 
 SELECT first_name, last_name
