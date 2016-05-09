@@ -13,7 +13,8 @@ SELECT emp_no, first_name,last_name
 FROM employees
 WHERE last_name LIKE 'E%'
     AND last_name Like '%e'
-    ORDER BY emp_no;
+    ORDER BY emp_no, last_name DESC;
+    
 
 SELECT first_name, last_name
 FROM employees
@@ -40,7 +41,7 @@ Exercises
 
 -- Update your queries for employees with 'E' in their last name to sort the results by their employee number. Your results should not change!
 
-Now reverse the sort order for both queries.
+-- Now reverse the sort order for both queries.
 
 Change the query for employees hired in the 90s and born on Christmas such that the first result is the oldest employee who was hired last. It should be Khun Bernini.
 
