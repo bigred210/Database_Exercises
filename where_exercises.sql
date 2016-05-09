@@ -11,7 +11,7 @@ WHERE   gender = 'M'
 SELECT emp_no, first_name,last_name
 FROM employees
 WHERE last_name LIKE 'E%'
-    OR last_name Like '%e'
+    AND last_name Like '%e'
     
 SELECT first_name, last_name
 FROM employees
@@ -39,7 +39,7 @@ Exercises
 
 -- Find all employees whose last name starts or ends with 'E' — 30,723 rows.
 
-Duplicate the previous query and update it to find all employees whose last name starts and ends with 'E' — 899 rows.
+-- Duplicate the previous query and update it to find all employees whose last name starts and ends with 'E' — 899 rows.
 
 Find all employees hired in the 90s and born on Christmas — 362 rows.
 
